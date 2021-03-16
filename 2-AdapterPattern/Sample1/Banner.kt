@@ -1,4 +1,4 @@
-class Banner(string:String){
+open class Banner(string:String){
     val string: String = string
 
     fun showWithParen {
