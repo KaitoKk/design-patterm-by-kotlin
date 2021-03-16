@@ -1,11 +1,11 @@
 open class Banner(string:String){
     val string: String = string
 
-    fun showWithParen {
+    fun showWithParen() {
         println("($string)")
     }
 
-    fun showWithAster {
+    fun showWithAster() {
         println("*$string*")
     }
 }
